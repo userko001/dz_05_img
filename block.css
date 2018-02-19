@@ -1,0 +1,119 @@
+body
+{
+	border:1px solid blue;
+}
+
+.content
+{
+	border:5px solid green;
+	padding:10px 10px 10px 10px;
+	margin-top:15px;
+}
+.first-block
+{
+	border:1px solid orange;
+	margin-bottom:8px;
+}
+.second-block
+{
+	border:1px solid red;
+	margin-top:8px;
+}
+.second-block span
+{
+	border:2px dashed black;
+	color:red;
+	display:block;
+}
+.second-block img
+{
+	border:1px solid black;
+	width:200px;
+	margin-left:8px;
+	margin-top:8px;
+}
+
+.second-block .catalogue
+{
+	margin-left:20px;
+	margin-right:20px;
+	text-align:left;
+}
+
+.second-block img:hover
+{
+	/*
+	box-sizing:border-box;
+	width:192px;
+	margin-left:18px;
+	margin-top:18px;
+	*/
+	width:212px;
+	margin-left:2px;
+	margin-right:-6px;
+	margin-top:-4px;
+	
+	/*
+	width:300px;
+	box-sizing:border-box;
+	margin:10px;
+	*/
+}
+.second-block img.active
+{
+	top:20px;
+	left:10px;
+	width:500px;
+	position:absolute;
+	z-index:123;
+	
+}
+/*
+z-index:123;
+layer
+*/
+
+/*     HOME WORK     */
+
+.home-work-first-div
+{
+	background-color:gray;
+	width:1400px;
+	height:300px;
+	position:relative;
+}
+.container
+{
+	background-color:yellow;
+	width:276px;
+	height:300px;
+	position:relative;
+	display:inline-block;
+}
+.my-img
+{
+	padding:5px;
+	height:270px;
+	position:absolute;
+	top:20px;
+	left:30px;
+}
+.my-text
+{
+	position:absolute;
+	top:0px;
+	height:15px;
+	left:130px;
+	display:inline-block;
+	margin-top:5px;
+}
+
+.container:hover img.my-img
+{
+	top:50px;
+}
+.container:hover span.my-text
+{
+	font-size:46px;
+	left:100px;
+}
